@@ -4,11 +4,12 @@ r:
     - oldrel
     - release
     - devel
-sudo: required
+sudo: false
 repos:
   CRAN: https://cloud.r-project.org
   ropensci: http://packages.ropensci.org
   
 deploy :
     skip_cleanup: true
+    
     
