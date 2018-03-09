@@ -1,0 +1,15 @@
+Type: Package
+Package: travis-ci-demo
+Title: CI test in Travis
+Version: 0.1.0
+Authors@R: c(
+  person("Alireza", "Yamghani", email = "alireza.yamghani@crescendotechnology.com",
+         role = c("aut", "cre")),
+  person("Crescendo Technology Ltd.", role = "cph")
+  )
+Maintainer: Alireza Yamghani <alireza.yamghani@crescendotechnology.com>
+Description: This is the test package.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
