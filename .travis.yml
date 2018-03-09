@@ -1,15 +1,7 @@
 language: r
 cache: packages
-r:
-    - oldrel
-    - release
-    - devel
+
 sudo: false
-repos:
-  CRAN: https://cloud.r-project.org
-  ropensci: http://packages.ropensci.org
-  
-deploy :
-    skip_cleanup: true
+
     
     
