@@ -8,6 +8,7 @@ install:
 - R -e "install.packages('tree')"
 script:
 - R CMD build .
+- R CMD check *tar.gz
 
     
     
