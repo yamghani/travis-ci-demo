@@ -3,9 +3,11 @@ sudo: false
 cache: packages
 r_github_packages:
 - rstudio/rmarkdown
+install:
+- R -e "install.packages('ggplot2')"
+- R -e "install.packages('tree')"
 script:
 - R CMD build .
-- R CMD check *tar.gz
 
     
     
