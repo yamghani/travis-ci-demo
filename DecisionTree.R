@@ -1,7 +1,7 @@
 data(iris)
 names(iris)
 #[1] "Sepal.Length" "Sepal.Width"  "Petal.Length" "Petal.Width"  "Species"  
-table(iris$Species)
+table(iris$Species) 
 
 #setosa versicolor  virginica 
 #50         50         50
